@@ -1,17 +1,18 @@
 body { 
     background-attachment: fixed; 
     background-color: #039898; 
-    background-image: url('images/backgrounds/clouds.gif'); 
+    background-image: url('images/backgrounds/open_space.gif'); 
+
+    /* 
     background-color: rgba(0, 0, 139, 0.2);
     background-blend-mode: overlay;
-    
     backdrop-filter:
         brightness(0.9)  
         contrast(1.5)  
         saturate(1.8)  
         hue-rotate(+50deg); 
-
-    background-size: 300px;
+    */
+    
     font-family: serif; 
     text-align: center;
     margin: 0; 
