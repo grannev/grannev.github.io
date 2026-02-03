@@ -1,0 +1,58 @@
+body { 
+    background-attachment: fixed; 
+    background-color: #039898; 
+    background-image: url('images/backgrounds/clouds.gif');
+    background-size: 200px;
+    font-family: serif; 
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+li, p { 
+    line-height: 1.3em; 
+}
+
+a img { 
+    border: none; 
+}
+
+.nav { 
+    background-color: #eeeeee; 
+    margin: 15px 0 15px 0; 
+    padding: 5px; 
+}
+
+.nav ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.nav ul li {
+    display: inline;
+}
+
+#container {
+    background-color: #ffffff; 
+    background-image: url('images/binder.gif'); 
+    background-repeat: repeat-y; 
+    padding: 25px 25px 25px 50px; 
+    width: 640px;
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+/* Classes */
+.back a {
+    vertical-align: top;
+}
+
+.hr {
+    text-align: center;
+}
+
+
+
+
+
