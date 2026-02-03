@@ -1,8 +1,17 @@
 body { 
     background-attachment: fixed; 
     background-color: #039898; 
-    background-image: url('images/backgrounds/clouds.gif');
-    background-size: 200px;
+    background-image: url('images/backgrounds/clouds.gif'); 
+    background-color: rgba(0, 0, 139, 0.2);
+    background-blend-mode: overlay;
+    
+    backdrop-filter:
+        brightness(0.9)  
+        contrast(1.5)  
+        saturate(1.8)  
+        hue-rotate(+50deg); 
+
+    background-size: 300px;
     font-family: serif; 
     text-align: center;
     margin: 0; 
@@ -11,14 +20,17 @@ body {
 
 li, p { 
     line-height: 1.3em; 
+    font-weight: bold;
 }
 
-a img { 
+a img {
     border: none; 
 }
 
 .nav { 
-    background-color: #eeeeee; 
+    background-color: #ffffcf;
+    background-image: url('images/backgrounds/winborder.gif'); 
+    background-size: 100% 100%;
     margin: 15px 0 15px 0; 
     padding: 5px; 
 }
