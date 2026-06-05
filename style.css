@@ -1,8 +1,7 @@
 body { 
     background-attachment: fixed; 
     background-color: #039898; 
-    background-image: url('images/backgrounds/open_space.gif'); 
-    background-image: url('images/backgrounds/stars-sky.gif'); 
+    background-image: url('images/backgrounds/stars-sky.png'); 
 
     /* 
     background-color: rgba(0, 0, 139, 0.2);
@@ -49,7 +48,7 @@ a img {
 
 #container {
     background-color: #ffffff; 
-    background-image: url('images/binder.gif'); 
+    background-image: url('images/binder.png'); 
     background-repeat: repeat-y; 
     padding: 25px 25px 25px 50px; 
     width: 640px;
@@ -57,7 +56,6 @@ a img {
     text-align: left; 
 }
 
-/* Classes */
 .back a {
     vertical-align: top;
 }
