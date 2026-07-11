@@ -151,6 +151,109 @@ h1, h2, h3 {
 	font-weight: bold;
 }
 
+.broken-wall {
+	position: relative;
+	margin-top: 12px;
+	aspect-ratio: 3 / 2;
+	overflow: hidden;
+	background: #0d1117;
+}
+
+.space-hole {
+	position: absolute;
+	inset: 16% 12%;
+	overflow: hidden;
+	background: #000;
+}
+
+.space-hole img {
+	position: absolute;
+	object-fit: cover;
+	image-rendering: pixelated;
+}
+
+.space-hole img:nth-child(1) {
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.space-hole img:nth-child(2) {
+	right: -8%;
+	top: -12%;
+	width: 65%;
+	height: 75%;
+	mix-blend-mode: screen;
+}
+
+.space-hole img:nth-child(3) {
+	left: -5%;
+	bottom: -8%;
+	width: 48%;
+	height: 58%;
+	mix-blend-mode: screen;
+}
+
+.space-hole img:nth-child(4) {
+	right: -3%;
+	bottom: -12%;
+	width: 52%;
+	height: 60%;
+	opacity: .72;
+	mix-blend-mode: screen;
+}
+
+.camerons-link {
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 69%;
+	padding: 3px 8px;
+	transform: translateX(-50%);
+	background: #000;
+	border: 1px dashed #87cefa;
+	color: #87cefa;
+	font: bold 13px monospace;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.camerons-link:hover {
+	background: #87cefa;
+	color: #000;
+}
+
+.space-hole .pogl {
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	width: 38%;
+	height: auto;
+	transform: translate(-50%, -50%);
+}
+
+.wall-overlay {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	transform: scale(1.12);
+}
+
+.button-strip {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 10px;
+}
+
+.button-strip img {
+	width: 88px;
+	height: 31px;
+}
+
 @media (max-width: 650px) {
 	body {
 		margin: 70px 16px 24px;
