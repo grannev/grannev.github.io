@@ -4,16 +4,38 @@
 
 <head>
     <title>/home/grannev</title>
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="prefetch" href="about.htm" />
+    <link rel="prefetch" href="projects.htm" />
+    <link rel="prefetch" href="stack.htm" />
+    <link rel="prefetch" href="contacts.htm" />
+    <link rel="prefetch" href="ru/index.htm" />
+    <link rel="prefetch" href="ascii-portrait.svg" />
+    <link rel="prefetch" href="resume.pdf" />
 </head>
 
 <body>
 	<a href="ru/index.htm" class="lang-link">$ ru.sh</a>
 
-	<div class="bash-title">$ grannev.sh</div><br/>
+	<div class="bash-title">$ neofetch</div>
+	<div class="bash-window fetch-window">
+		<div class="fetch-output">
+			<img class="ascii" src="ascii-portrait.svg" alt="ASCIISELFIE" />
+			<div class="fetch-info">
+				<strong>grannev@engineer</strong><br/>
+				<span class="fetch-rule">----------------</span><br/>
+				<span class="fetch-label">Name:</span> Georgiy<br/>
+				<span class="fetch-label">Role:</span> Backend-Developer || Software-Engineer<br/>
+				<span class="fetch-label">OS:</span> GNU/Linux<br/>
+				<span class="fetch-label">Editor:</span> Neovim<br/>
+				<span class="fetch-label">Fav Langs:</span> C, Go, Pascal<br/>
+				<span class="fetch-label">Shell:</span> alacritty
+			</div>
+		</div>
+	</div>
 	<p>
 		Hi, my name is Georgiy, this is my
 		<span class="bash-p">$(home-page || resume)</span>
@@ -28,6 +50,4 @@
 		</span>
 	</div>
 </body>
-
-
 </html>
