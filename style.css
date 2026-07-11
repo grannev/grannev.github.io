@@ -24,6 +24,7 @@ h1, h2, h3 {
 .bash,
 .bash-p,
 .bash-dir,
+.bash-exec,
 .bash-title,
 .bash-window {
 	display: inline-block;
@@ -48,6 +49,18 @@ h1, h2, h3 {
 	color: #87cefa;
 }
 
+.bash-dir:hover {
+	font-weight: bold;
+}
+
+.bash-exec {
+	color: #87ce12;
+}
+
+.bash-exec:hover {
+	font-weight: bold;
+}
+
 .bash-window {
 	display: block;
 	width: 100%;
@@ -58,5 +71,28 @@ h1, h2, h3 {
 	border-radius: 8px;
 }
 
+.lang-link {
+    position: absolute; 
+   
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+    top: 20px;
+    right: 20px;
+	border-radius: 8px;
+    
+	background-color: #161b22;
+    text-decoration: none;
+	color: #fee;
+	font-family: monospace;
+}
 
+.lang-link:hover {
+	font-weight: bold;
+}
+
+.open:hover {
+	font-weight: bold;
+}
 
