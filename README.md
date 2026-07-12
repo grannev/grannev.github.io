@@ -14,6 +14,9 @@ the World and Unix Wizards.
 
 ## Also check
 
-http://www.rebuildworld.net/
+http://www.rebuildworld.net/  
 http://unixwizards.net/
+
+<img width="88" height="31" alt="pow-rebuild" src="https://github.com/user-attachments/assets/9846c39c-1422-4af3-ab31-520060456022" />
+<img width="88" height="31" alt="unixwizards" src="https://github.com/user-attachments/assets/99aeb27f-5fad-4962-807a-3f97fec804be" />
 
